@@ -1,0 +1,14 @@
+{
+  "name": "tripsum",
+  "version": "1.0.0",
+  "description": "placeholder text for those who love travel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "knopkaivy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

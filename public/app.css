@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(173, 96, 161);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+}
+
+#bookBtn {
+    background-color: rgb(173, 96, 161);
+    border-color: rgb(173, 96, 161);
+}
+
+.jumbotron {
+    transition: background 0.5s linear;
+}
+
+#header {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.all {
+    background: url(./imgs/travel-1.jpg) center / cover no-repeat;
+}
+
+.sanfran {
+    background: url(./imgs/sf-1.jpg) center / cover no-repeat;
+}
+
+.paris {
+    background: url(./imgs/paris-1.jpg) center / cover no-repeat;
+}
+
+#card {
+    font-size: 18px;
+}
+
+.blockquote {
+    font-size: inherit;
+}
+
+
+#footer {
+    opacity: 0.65;
+    text-align: center;
+    font-size: 0.6rem;
+}
