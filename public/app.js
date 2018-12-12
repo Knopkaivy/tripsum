@@ -73,7 +73,6 @@ const paris =
 $('#paragraphs').on('keypress', function(e){
     if(e.which === 13)
     $("#tripsumCard").html(generateSection());
-    alert("from return key function");
 });
 
 $('#bookBtn').on('click', function(){
