@@ -70,9 +70,16 @@ const paris =
     ];
 
 // ***TRIPSUM GENERATION FUNCTIONALITY***
+$('#paragraphs').on('keypress', function(e){
+    if(e.which === 13)
+    $("#tripsumCard").html(generateSection());
+    alert("from return key function");
+});
+
 $('#bookBtn').on('click', function(){
     $("#tripsumCard").html(generateSection());
 });
+
 
 
 function generateSection(){
