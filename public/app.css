@@ -1,6 +1,8 @@
+
 body {
     background-color: rgb(173, 96, 161);
     font-family: 'Work Sans', sans-serif;
+    height: 100vh;
 }
 
 .navbar {
@@ -14,7 +16,7 @@ body {
 }
 
 .jumbotron {
-    transition: background 0.5s linear;
+    transition: background 0s 0.15s;
 }
 
 #header {
@@ -33,6 +35,7 @@ body {
 .paris {
     background: url(./imgs/paris-1.jpg) center / cover no-repeat;
 }
+
 
 #card {
     font-size: 16px;
